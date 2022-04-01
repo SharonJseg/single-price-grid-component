@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/single-price-grid-component/static/css/main.1b207af9.css",
+    "main.js": "/single-price-grid-component/static/js/main.abe2daa6.js",
+    "static/media/Karla-Bold.woff": "/single-price-grid-component/static/media/Karla-Bold.68366344f1a2f744c6f2.woff",
+    "static/media/Karla-Regular.woff": "/single-price-grid-component/static/media/Karla-Regular.0e100b7435e3c21fcc81.woff",
+    "static/media/Karla-Bold.woff2": "/single-price-grid-component/static/media/Karla-Bold.a825d6192bf91226a811.woff2",
+    "static/media/Karla-Regular.woff2": "/single-price-grid-component/static/media/Karla-Regular.26f56ea412b932ea2d8f.woff2",
+    "index.html": "/single-price-grid-component/index.html",
+    "main.1b207af9.css.map": "/single-price-grid-component/static/css/main.1b207af9.css.map",
+    "main.abe2daa6.js.map": "/single-price-grid-component/static/js/main.abe2daa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b207af9.css",
+    "static/js/main.abe2daa6.js"
+  ]
+}
