@@ -1,0 +1,154 @@
+.single-price {
+  background: #fff;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-price__top-wrapper {
+  text-align: left;
+  padding: 40px;
+}
+
+.single-price__title {
+  color: var(--clr-cyan);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 24px;
+  line-height: 1.16;
+}
+
+.single-price__subtitle {
+  color: var(--clr-green);
+  font-weight: 700;
+  letter-spacing: -0.22px;
+  margin-bottom: 11px;
+  line-height: 1.16;
+  font-size: var(--fs-big);
+}
+
+.single-price__text {
+  max-width: 555px;
+  letter-spacing: -0.2px;
+  line-height: 1.625;
+}
+
+.single-price__bottom-wrapper {
+  display: flex;
+  background-color: var(--clr-cyan);
+  color: #fff;
+  text-align: left;
+}
+
+.single-price__subscribe {
+  padding: 40px;
+  width: 50%;
+}
+
+.white {
+  color: #fff;
+  margin-bottom: 18px;
+  font-size: var(--fs-big);
+}
+
+.single-price__details {
+  color: #94d9d7;
+  letter-spacing: -0.2px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.single-price__details-price {
+  color: #fff;
+  font-size: 32px;
+  margin-right: 11px;
+}
+
+.single-price__full-access {
+  line-height: 1.625;
+  margin-bottom: 26px;
+}
+
+.single-price__signup {
+  background-color: var(--clr-green);
+  line-height: 1.125;
+  color: #fff;
+  letter-spacing: -0.2px;
+  padding: 15px 0 14px;
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single-price__signup:hover {
+  transition: 0.2s ease;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.0973011);
+}
+
+.single-price__whyus {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  width: 50%;
+}
+
+.single-price__list {
+  list-style: none;
+  font-size: var(--fs-small);
+  line-height: 1.428;
+}
+
+.single-price__list li {
+  opacity: 0.5;
+  letter-spacing: -0.175px;
+}
+
+@media screen and (max-width: 425px) {
+  .single-price {
+    max-width: 311px;
+    margin-top: 72px;
+    margin-bottom: 62px;
+  }
+
+  .single-price__top-wrapper {
+    text-align: left;
+    padding: 28px 24px 32px;
+  }
+
+  .single-price__title {
+    font-size: 20px;
+    letter-spacing: -0.25px;
+    line-height: 1.15;
+  }
+
+  .single-price__subtitle {
+    letter-spacing: -0.19px;
+    margin-bottom: 16px;
+    line-height: 1.33;
+    font-size: 15px;
+  }
+
+  .single-price__text {
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 1.85;
+  }
+
+  .single-price__bottom-wrapper {
+    flex-direction: column;
+  }
+
+  .single-price__subscribe {
+    padding: 24px;
+    width: 100%;
+  }
+  .single-price__whyus {
+    padding: 24px;
+    width: 100%;
+  }
+}
